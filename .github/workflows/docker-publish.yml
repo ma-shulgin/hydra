@@ -1,4 +1,5 @@
 name: docker-publish
+on:
   workflow_dispatch: # manually run
     inputs:
       target:
