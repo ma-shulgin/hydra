@@ -1,5 +1,5 @@
 ARG NODE=node:14-alpine
-ARG HASURA=hasura/graphql-engine:v2.0.3.cli-migrations-v3
+ARG HASURA=hasura/graphql-engine:latest.cli-migrations-v3
 FROM ${NODE} AS node
 FROM ${HASURA} AS hasura-with-migrations
 
