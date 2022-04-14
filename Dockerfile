@@ -1,4 +1,4 @@
-ARG HASURA=hasura/graphql-engine:v2.0.3.cli-migrations-v3
+ARG HASURA=hasura/graphql-engine:latest.cli-migrations-v3
 FROM ${HASURA} AS hasura-with-migrations
 
 
